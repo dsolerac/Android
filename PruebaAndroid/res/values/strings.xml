@@ -13,5 +13,8 @@
     <string name="ProgressDialogSophisticated">Click to display a detailed progress dialog</string>
     <string name="title_activity_second">SecondActivity</string>
     <string name="title_activity_fragments">FragmentsActivity</string>
+    <string name="title_activity_web_browser">WebBrowser</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
 
 </resources>

@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class Fragment2 extends Fragment{
 	
@@ -24,7 +26,17 @@ public class Fragment2 extends Fragment{
 		// TODO Auto-generated method stub
 		super.onStart();
 		
-		Button btnGetText = (Button) getActivity().findViewById(R.id.btnG) 
+		Button btnGetText = (Button) getActivity().findViewById(R.id.btnGetText);
+		btnGetText.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+
+				TextView lbl = (TextView) getActivity().findViewById(R.id.lblFragment1);
+				Toast.makeText(getActivity(), lbl.getText(), Toast.LENGTH_SHORT).show();
+				
+			}
+		});
 	}
 
 }
