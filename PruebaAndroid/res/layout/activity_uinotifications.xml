@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".UINotificationsActivity" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <EditText 
+        android:id="@+id/txt1"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"         
+        android:text="OK"/>
+    
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"         
+        android:text="Cancel"/>
+    
+</LinearLayout>
