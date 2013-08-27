@@ -50,17 +50,25 @@
             android:label="@string/title_activity_web_browser" >
         </activity>
         <activity
-            android:name="com.example.pruebaandroid.notifications.NotificationView"
+            android:name="com.example.pruebaandroid.NotificationsActivity"
             android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.NotificationView"
+            android:label="@string/title_activity_notifications" >
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.actionbar.ActionBarActivity"
+            android:label="@string/title_activity_action_bar" >
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.uiNotifications.UINotificationsActivity"
+            android:label="@string/title_activity_uinotifications" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".NotificationsActivity"
-            android:label="@string/title_activity_notifications" >
         </activity>
     </application>
 

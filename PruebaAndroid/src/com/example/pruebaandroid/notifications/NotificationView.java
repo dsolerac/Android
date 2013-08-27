@@ -7,6 +7,7 @@ import com.example.pruebaandroid.R.menu;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.NotificationManager;
+import android.content.Intent;
 import android.view.Menu;
 
 public class NotificationView extends Activity {
@@ -17,7 +18,12 @@ public class NotificationView extends Activity {
 		setContentView(R.layout.notification);
 		
 		NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-//		nm.cancel( getIntent().getExtras().getInt("notificationID") );
+		Intent i = getIntent();
+		Bundle b = i.getExtras();
+		int id = b.getInt("notificationID");
+		
+		
+		nm.cancel( id);
 //		nm.cancel( 1 );
 		
 	}

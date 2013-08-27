@@ -44,7 +44,7 @@ public class NotificationsActivity extends Activity {
 		NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
 		Notification notif = new Notification(R.drawable.ic_launcher,
-				"Esto es una noficiación!!!", System.currentTimeMillis());
+				"Esto es una noficiacion!!!", System.currentTimeMillis());
 
 		CharSequence from = "System Alarm";
 		CharSequence message = "Meeting with customer at 3pm...";

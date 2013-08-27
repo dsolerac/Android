@@ -16,5 +16,7 @@
     <string name="title_activity_web_browser">WebBrowser</string>
     <string name="title_activity_notification">Notification</string>
     <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_action_bar">ActionBarActivity</string>
+    <string name="title_activity_uinotifications">UINotificationsActivity</string>
 
 </resources>
