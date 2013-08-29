@@ -64,6 +64,14 @@
         <activity
             android:name="com.example.pruebaandroid.uiNotifications.UINotificationsActivity"
             android:label="@string/title_activity_uinotifications" >
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.views.basic.BasicActivity"
+            android:label="@string/title_activity_basic" >
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.views.basic.ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
