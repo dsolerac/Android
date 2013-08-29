@@ -28,26 +28,27 @@ public final class R {
     public static final class id {
         public static final int BtnHola=0x7f08000d;
         public static final int TxtNombre=0x7f08000c;
-        public static final int action_settings=0x7f08001e;
-        public static final int btn1=0x7f080017;
-        public static final int btn2=0x7f080018;
-        public static final int btnGetText=0x7f08001d;
+        public static final int action_settings=0x7f08001f;
+        public static final int btn1=0x7f080018;
+        public static final int btn2=0x7f080019;
+        public static final int btnGetText=0x7f08001e;
         public static final int btnImg1=0x7f080002;
         public static final int btnOpen=0x7f080001;
         public static final int btnSave=0x7f080000;
-        public static final int btn_dialog2=0x7f080014;
-        public static final int btn_dialog3=0x7f080015;
+        public static final int btn_dialog2=0x7f080015;
+        public static final int btn_dialog3=0x7f080016;
         public static final int btn_displaynotif=0x7f080012;
-        public static final int btn_makecalls=0x7f08001a;
-        public static final int btn_showMap=0x7f08001b;
-        public static final int btn_webbrowser=0x7f080019;
+        public static final int btn_makecalls=0x7f08001b;
+        public static final int btn_showMap=0x7f08001c;
+        public static final int btn_webbrowser=0x7f08001a;
         public static final int button1=0x7f08000f;
         public static final int chkAutosave=0x7f080004;
         public static final int fragment1=0x7f08000a;
         public static final int fragment2=0x7f08000b;
-        public static final int lblFragment1=0x7f08001c;
+        public static final int lblFragment1=0x7f08001d;
         public static final int multiAutoCompleteTextView1=0x7f080011;
         public static final int progressBar1=0x7f080013;
+        public static final int progressbar=0x7f080014;
         public static final int ratingBar1=0x7f080010;
         public static final int rdb1=0x7f080007;
         public static final int rdb2=0x7f080008;
@@ -55,7 +56,7 @@ public final class R {
         public static final int star=0x7f080005;
         public static final int textView1=0x7f08000e;
         public static final int toggle1=0x7f080009;
-        public static final int txt1=0x7f080016;
+        public static final int txt1=0x7f080017;
         public static final int txtName=0x7f080003;
     }
     public static final class layout {
