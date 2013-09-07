@@ -72,6 +72,11 @@
         <activity
             android:name="com.example.pruebaandroid.views.basic.ProgressBarActivity"
             android:label="@string/title_activity_progress_bar" >
+
+        </activity>
+        <activity
+            android:name="com.example.pruebaandroid.dataStored.UsandoPreferencesActivity"
+            android:label="@string/title_activity_usando_preferences" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
