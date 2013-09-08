@@ -20,5 +20,6 @@
     <string name="title_activity_uinotifications">UINotificationsActivity</string>
     <string name="title_activity_basic">BasicActivity</string>
     <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_usando_preferences">UsandoPreferences</string>
 
 </resources>
